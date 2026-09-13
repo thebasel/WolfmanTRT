@@ -1,0 +1,24 @@
+WOLFMANTRT — how to upload (beginner)
+
+GOAL
+Get this website live on GitHub Pages with no 404.
+
+WHAT THIS FOLDER CONTAINS
+- index.html          (home page)
+- blog/               (blog page)
+- start-here/         (start here page)
+- css/styles.css      (look and feel)
+- 404.html
+- .github/workflows/pages.yml   (the robot that publishes the site)
+
+IMPORTANT RULE
+When these files are on GitHub, index.html must be at the TOP of the repo —
+not inside another folder named wolfmantrt-site.
+
+THE WORKFLOW PATH
+path: '.'
+means: "publish the files at the top of the repo"
+That is why index.html must be at the top.
+
+DO NOT paste a second pages.yml if one already exists.
+Edit the existing workflow file instead (that is what caused your name error).
